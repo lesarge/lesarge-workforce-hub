@@ -1,0 +1,12 @@
+# Lesarge Workforce Hub (WordPress workspace)
+
+This private repository contains the WordPress workspace snapshot for the Lesarge Workforce Hub project.
+
+Structure:
+- wordpress-version/ (current WordPress installation snapshot)
+- database/ (sanitized SQL dumps)
+- documentation/ (architecture, migration plan)
+- standalone-version/ (future PHP 8.2 MVC app skeleton)
+- migration/ (migration scripts and notes)
+
+IMPORTANT: wp-config.php, uploads, and other secrets are excluded by .gitignore.
