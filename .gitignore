@@ -1,0 +1,27 @@
+.gitignore
+
+# WordPress core config & secrets
+wp-config.php
+.htaccess
+.env
+
+# System files
+.DS_Store
+Thumbs.db
+*.log
+
+# Node / vendor / IDE
+node_modules/
+vendor/
+.vscode/
+.idea/
+
+# Database dumps
+*.sql
+*.sql.gz
+
+# Large uploads (optional)
+wp-content/uploads/
+
+# OS files
+desktop.ini
